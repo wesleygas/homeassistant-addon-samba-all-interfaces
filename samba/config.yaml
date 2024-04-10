@@ -15,7 +15,7 @@ image: ghcr.io/lmagyar/{arch}-addon-samba-interface
 init: false
 map:
   - addons:rw
-  - all_addon_configs:rw
+  - addon_configs:rw
   - backup:rw
   - homeassistant_config:rw
   - media:rw
